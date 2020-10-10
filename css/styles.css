@@ -8,7 +8,7 @@
 :root{
     --primaryColor: hsla(200, 100%, 100%, 0.3);
     --secondaryColor: hsla(120, 100%, 100%, 0.3);
-    --accentColor: hsla(220, 100%, 60%, 0.4);
+    --accentColor: hsla(220, 100%, 60%, 0.9);
     
     --primaryText: hsla(200, 10%, 50%, 0.3);
     --secondaryText: hsla(365, 10%, 60%, 0.3);
@@ -45,6 +45,8 @@ body{
     border-bottom: var(--border);
     box-shadow: var(--boxShadow);
     padding: 1%;
+    position: sticky;
+    top: 0;
 }
 
 #header > div > * {
